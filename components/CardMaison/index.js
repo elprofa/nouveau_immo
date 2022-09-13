@@ -11,10 +11,12 @@ function CardMaison(props) {
     let image=props.image;
     let id_maison=props.id;
 
+    const url="https://nouveau-immo.vercel.app"
+
   return (
     <CardMaisonStc className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-lg-3 css-1v3ij5o">
         <div className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1o7wmzi div_image" style={{paddingBottom:'15px'}}>
-            <img src={"http://localhost:1337"+image[0]?.attributes?.url} alt="img" width="100%" />
+            <img src={url+image[0]?.attributes?.url} alt="img" width="100%" />
             <div className="MuiCardContent-root css-18mhetb">
                 <span className="MuiTypography-root MuiTypography-caption css-zo79h9 "><b>publier: </b>{props.date}</span>
                 <span className="MuiTypography-root MuiTypography-caption css-zo79h9 " style={{float:"right",fontWeight:"600"}}>{auteur?.attributes?.username}</span>
