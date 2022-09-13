@@ -1,44 +1,40 @@
 const Menuitems = [
   {
-    title: "Dashbaord",
+    title: "Tableau de bord",
     icon: "home",
     href: "/",
   },
   {
-    title: "Buttons",
+    title: "Maisons",
     icon: "disc",
-    href: "/buttons",
+    href: "/maisons",
   },
   {
-    title: "Forms",
+    title: "Categorie",
     icon: "layout",
-    href: "/forms",
+    href: "/categories",
   },
   {
-    title: "Alerts",
+    title: "Quartier",
     icon: "info",
     href: "/alerts",
   },
   {
-    title: "Ratings",
+    title: "Ville",
     icon: "star",
     href: "/rating",
   },
   {
-    title: "Images",
+    title: "Utilisateurs",
     icon: "image",
     href: "/image",
   },
   {
-    title: "Pagination",
+    title: "Paramètres",
     icon: "user",
     href: "/pagination",
   },
-  {
-    title: "Tables",
-    icon: "grid",
-    href: "/table",
-  },
+ 
 ];
 
 export default Menuitems;
