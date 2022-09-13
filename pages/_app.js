@@ -15,7 +15,7 @@ const clientSideEmotionCache = createEmotionCache();
 
 import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
 const client = new ApolloClient({
-  uri: 'hhttps://protected-journey-77677.herokuapp.com/graphql',
+  uri: 'https://protected-journey-77677.herokuapp.com/graphql',
   cache: new InMemoryCache(),
 });
 export default function MyApp(props) {
